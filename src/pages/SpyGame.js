@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Container, Grid } from "@mui/material";
-import SpyGameVideo from 'https://portfoliovideosstore.s3.eu-west-2.amazonaws.com/SilhouetteSpy_AdobeExpress.mp4';
+import SpyGameVideo from '../resources/SilhouetteSpy_AdobeExpress.mp4';
 
 function SpyGame() {
     return (

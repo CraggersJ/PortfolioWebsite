@@ -1,6 +1,5 @@
 import { Card, Container, Grid } from "@mui/material";
-import React from "react";
-import GroupProjectVideo from 'https://www.youtube.com/watch?v=qME0PHGbl40&ab_channel=JoeCraghill';
+import React, { useState } from "react";
 
 function GroupProject() {
     return (
@@ -17,7 +16,7 @@ function GroupProject() {
                 </Container>
             </Grid>
             <Grid item xs={8}>
-               <video src={GroupProjectVideo} controls loop muted style={{height: 'auto', width: '100%'}}/> 
+               <video crossOrigin="anonymous" controls loop muted style={{height: 'auto', width: '100%'}}/> 
             </Grid>
         </Grid>
     )
