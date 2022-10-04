@@ -1,6 +1,5 @@
 import { Stack } from '@mui/system';
 import React from 'react';
-import createScrollSnap from 'scroll-snap'
 import TitlePage from './TitlePage';
 import SalamanderAssassin from './SalamanderAssassin';
 import SpyGame from './SpyGame';
