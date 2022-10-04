@@ -1,11 +1,12 @@
 import { Card, Container, Grid } from "@mui/material";
 import React from "react";
+import MarbleBlastCloneVideo from 'https://portfoliovideosstore.s3.eu-west-2.amazonaws.com/MarbleBlastClone_AdobeExpress.mp4';
 
 function MarbleBlastClone() {
     return (
         <Grid container spacing={4} style={{overflow: 'hidden', margin: 'auto', minHeight: '100vh', width: '95vw'}}>
             <Grid item xs={8}>
-               <video autoPlay loop muted style={{height: 'auto', width: '100%'}}/> 
+               <video src={MarbleBlastCloneVideo} autoPlay loop muted style={{height: 'auto', width: '100%'}}/> 
             </Grid>
             <Grid item xs={4}>
                 <Container>

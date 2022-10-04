@@ -1,14 +1,16 @@
 import React from "react";
 import { Card, Container, Grid } from "@mui/material";
+import HomePageVideo from 'https://portfoliovideosstore.s3.eu-west-2.amazonaws.com/Android-HomePage.mp4';
+import UsePageVideo from 'https://portfoliovideosstore.s3.eu-west-2.amazonaws.com/Screen_Recording_20220927_173757.mp4'
 
 function Clover() {
     return (
         <Grid container spacing={2} style={{overflow: 'hidden', margin: 'auto', minHeight: '100vh', width: '95vw'}}>
             <Grid item xs={3}>
-               <video autoPlay loop muted style={{height: '75vh', width: 'auto'}}/> 
+               <video src={HomePageVideo} autoPlay loop muted style={{height: '75vh', width: 'auto'}}/> 
             </Grid>
             <Grid item xs={3}>
-               <video autoPlay loop muted style={{height: '75vh', width: 'auto'}}/> 
+               <video src={UsePageVideo} autoPlay loop muted style={{height: '75vh', width: 'auto'}}/> 
             </Grid>
             <Grid item xs={6}>
                 <Container>
