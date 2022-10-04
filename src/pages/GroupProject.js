@@ -1,6 +1,5 @@
 import { Card, Container, Grid } from "@mui/material";
 import React from "react";
-import Presentation from '../resources/Group28_VideoPresentation.mp4';
 
 function GroupProject() {
     return (
@@ -17,7 +16,7 @@ function GroupProject() {
                 </Container>
             </Grid>
             <Grid item xs={8}>
-               <video src={Presentation} controls loop muted style={{height: 'auto', width: '100%'}}/> 
+               <video controls loop muted style={{height: 'auto', width: '100%'}}/> 
             </Grid>
         </Grid>
     )

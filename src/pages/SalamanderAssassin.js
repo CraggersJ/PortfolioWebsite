@@ -1,7 +1,6 @@
 import { Card, Container, Grid } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import SalamanderAssassinVideo from '../resources/SalamanderAssassin_AdobeExpress.mp4';
 
 function SalamanderAssassin() {
     return (
@@ -15,7 +14,7 @@ function SalamanderAssassin() {
                 </Container>
             </Grid>
             <Grid item xs={8}>
-               <video src={SalamanderAssassinVideo} autoPlay loop muted style={{height: 'auto', width: '100%'}}/> 
+               <video autoPlay loop muted style={{height: 'auto', width: '100%'}}/> 
             </Grid>
         </Grid>
     )

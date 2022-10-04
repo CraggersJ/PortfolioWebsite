@@ -1,12 +1,11 @@
 import React from "react";
 import { Card, Container, Grid } from "@mui/material";
-import SpyGameVideo from '../resources/SilhouetteSpy_AdobeExpress.mp4'
 
 function SpyGame() {
     return (
         <Grid container spacing={4} style={{overflow: 'hidden', margin: 'auto', minHeight: '100vh', width: '95vw'}}>
             <Grid item xs={8}>
-               <video src={SpyGameVideo} controls loop style={{height: 'auto', width: '100%'}}/> 
+               <video controls loop style={{height: 'auto', width: '100%'}}/> 
             </Grid>
             <Grid item xs={4}>
                 <Container>

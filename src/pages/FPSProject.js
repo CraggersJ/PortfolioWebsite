@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Container, Grid } from "@mui/material";
-import InfectedPhoto from '../resources/Infected.png'
 
 function FPSProject() {
     return (
@@ -14,7 +13,7 @@ function FPSProject() {
                     </Container>
                 </Grid>
                 <Grid item xs={6}>
-                    <img src={InfectedPhoto} style={{height: 'auto', width: '100%'}}/>
+                    <img style={{height: 'auto', width: '100%'}}/>
                 </Grid>
             </Grid>
     )
