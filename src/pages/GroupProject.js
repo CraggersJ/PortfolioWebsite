@@ -16,7 +16,7 @@ function GroupProject() {
                 </Container>
             </Grid>
             <Grid item xs={8}>
-               <video crossOrigin="anonymous" controls loop muted style={{height: 'auto', width: '100%'}}/> 
+                <iframe style={{width: "100%", height: "54%"}} src="https://www.youtube.com/embed/qME0PHGbl40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
             </Grid>
         </Grid>
     )
